@@ -1,4 +1,13 @@
 {
-  "password": "12345",
-  "link": "https://google.com"
+  "users": [
+    {
+      "username": "user1",
+      "password": "12345",
+      "link": "https://google.com"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "rahasia"
+  }
 }
