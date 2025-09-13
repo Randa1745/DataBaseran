@@ -1,13 +1,32 @@
 {
   "users": [
     {
+      "id": 1,
+      "username": "Randa",
+      "gmail": "admin@gmail.com",
+      "password": "Randa",
+      "role": "admin",
+      "balance": 999999
+    },
+    {
+      "id": 2,
       "username": "user1",
-      "password": "12345",
-      "link": "https://google.com"
+      "gmail": "user1@gmail.com",
+      "password": "user123",
+      "role": "user",
+      "balance": 100
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "gmail": "user2@gmail.com",
+      "password": "user234",
+      "role": "user",
+      "balance": 100
     }
   ],
-  "admin": {
-    "username": "admin",
-    "password": "rahasia"
+  "settings": {
+    "bet": 10,
+    "multiplier": 5
   }
 }
